@@ -4,8 +4,9 @@ def display_board
   separator= "\n-----------\n"
   raw1=[ cell+"|"+cell+"|"+cell+"|"]
   raw2=separator
-  
-  puts raw
+
+  puts raw1
+  puts raw2
 end
 #expected: "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 #Failure/Error: expect(output).to include("   |   ")
