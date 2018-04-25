@@ -1,7 +1,7 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
   cell="   "
-  separator= "\n-----------\n"
+  separator= "-----------"
   one_raw=[ cell+"|"+cell+"|"+cell]
 
   raw1=one_raw
