@@ -4,3 +4,4 @@ def display_board
   raw=[ cell+"|"]
   puts raw
 end
+#expected: "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
